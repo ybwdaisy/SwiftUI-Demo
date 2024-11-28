@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUI_DemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            EmojiDemo()
+            OnChangeContentView()
         }
     }
 }

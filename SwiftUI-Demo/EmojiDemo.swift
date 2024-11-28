@@ -4,6 +4,9 @@
 //
 //  Created by ybwdaisy on 2024/11/14.
 //
+
+// https://fatbobman.com/zh/posts/understanding-swiftui-view-update-mechanism/
+
 import SwiftUI
 
 let emojis = ["😀", "😬", "😄", "🙂", "😗", "🤓", "😏", "😕", "😟", "😎", "😜", "😍", "🤪"]
