@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B56C6F3D2CF86891000C48B0 /* Infinite4Pager in Frameworks */ = {isa = PBXBuildFile; productRef = B56C6F3C2CF86891000C48B0 /* Infinite4Pager */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B56C111D2CE595F1002DC941 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56C6F3D2CF86891000C48B0 /* Infinite4Pager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 				B56C110D2CE595EE002DC941 /* SwiftUI-Demo */,
 				B56C111F2CE595F1002DC941 /* SwiftUI-DemoTests */,
 				B56C11292CE595F1002DC941 /* SwiftUI-DemoUITests */,
+				B56C6F3B2CF86891000C48B0 /* Frameworks */,
 				B56C110C2CE595EE002DC941 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +96,13 @@
 				B56C11262CE595F1002DC941 /* SwiftUI-DemoUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B56C6F3B2CF86891000C48B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +125,7 @@
 			);
 			name = "SwiftUI-Demo";
 			packageProductDependencies = (
+				B56C6F3C2CF86891000C48B0 /* Infinite4Pager */,
 			);
 			productName = "SwiftUI-Demo";
 			productReference = B56C110B2CE595EE002DC941 /* SwiftUI-Demo.app */;
@@ -195,6 +209,9 @@
 			);
 			mainGroup = B56C11022CE595EE002DC941;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B54C00832CF866860028C0A1 /* XCRemoteSwiftPackageReference "Infinite4Pager" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B56C110C2CE595EE002DC941 /* Products */;
 			projectDirPath = "";
@@ -591,6 +608,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B54C00832CF866860028C0A1 /* XCRemoteSwiftPackageReference "Infinite4Pager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fatbobman/Infinite4Pager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B56C6F3C2CF86891000C48B0 /* Infinite4Pager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B54C00832CF866860028C0A1 /* XCRemoteSwiftPackageReference "Infinite4Pager" */;
+			productName = Infinite4Pager;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B56C11032CE595EE002DC941 /* Project object */;
 }

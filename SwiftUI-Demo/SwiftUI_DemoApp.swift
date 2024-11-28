@@ -12,7 +12,8 @@ struct SwiftUI_DemoApp: App {
     var body: some Scene {
         WindowGroup {
 //            EmojiDemo()
-            OnChangeContentView()
+//            OnChangeContentView()
+            Infinite4PagerView()
         }
     }
 }
